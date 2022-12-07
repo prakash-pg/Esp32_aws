@@ -9,9 +9,9 @@
 #define PIN_LM35       36 // ESP32 pin GIOP36 (ADC0) connected to LM35
 
 // Enter your WiFi ssid and password
-const char* ssid = "GNXS-2EC0D0"; //Provide your SSID
-const char* password = "9629090034"; // Provide Password
-const char* mqtt_server = "a27wqeeeko5die-ats.iot.ap-northeast-1.amazonaws.com"; // Relace with your MQTT END point
+const char* ssid = "wifi name"; //Provide your SSID
+const char* password = "wifi password"; // Provide Password
+const char* mqtt_server = "xxxxxxxxxxxxxxxxxxxxxxxxxx"; // Relace with your MQTT END point
 const int mqtt_port = 8883;
 
 String Read_rootca;
